@@ -1,20 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0,width=device-width,user-scalable=0, minimal-ui">
-    <title>Ambrosio Dental Care</title>
-    <style media="screen">
-      body,
-      iframe {
-        padding: 0;
-        margin: 0;
-        border: 0;
-        height: 100vh;
-      }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ambrosio Dental Care Home Page">
+    <meta name="author" content="http://twitter.com/jonschlinkert, http://twitter.com/doowb">
+    <title>
+      Ambrosio Dental Care - Family Dental Care in Santa Rosa City, Laguna, Philippines | ADC
+    </title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/github.css">
+
+    <!--[if lt IE 9]>
+      <script src="assets/js/ie8-responsive-file-warning.js"></script>
+        <![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
   </head>
-  <body>
-    <iframe src="https://calendly.com/ambrosiodental/appointment/" width="100%" height="100%"></iframe>
+  <body id="index">
+    <section class="splash">
+      <div class="portrait-brand brand">
+        <img src="/assets/images/adc_logo_09.svg" alt="ADC is Ambrosio Dental Care">
+      </div>
+      <div class="landscape-brand brand">
+        <img src="/assets/images/adc_logo-06.svg" alt="ADC" class="tooth">
+        <img src="/assets/images/adc_logo-08.svg" alt="Ambrosio Dental Care" class="verbose-name">
+      </div>
+    </section>
+    <section class="services">
+      <div class="center">
+        <div class="type">
+        </div>
+      </div>
+    </section>
+    <section class="location">
+      <div class="center">
+        <iframe src="https://calendly.com/ambrosiodental/appointment/" width="100%" height="100%"></iframe>
+      </div>
+    </section>
+
+    <!-- <section class="booking">
+</section> -->
+
+    <!-- JS and analytics only. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/highlight.js"></script>
+    <script src="http://getbootstrap.com/docs-assets/js/holder.js"></script>
+    <script src="http://getbootstrap.com/docs-assets/js/application.js"></script>
+    <script>
+      $('[data-toggle=popover]').popover({
+        placement: 'right',
+        html: true
+      });
+    </script>
   </body>
 </html>
