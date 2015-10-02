@@ -7156,13 +7156,13 @@ iframe {
   }
 }
 #index .services {
-  background-image: url("/assets/images/2015-09-30 01.45.41 2.jpg");
+  background-image: url("/assets/images/2015-09-30 01.48.10 2.jpg");
 }
 #index .services:before {
   background-image: none;
 }
 #index .location {
-  background-image: url("/assets/images/2015-09-30 01.48.10 2.jpg");
+  background-image: url("/assets/images/2015-09-30 01.45.41 2.jpg");
 }
 #index .location:before {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.8));
